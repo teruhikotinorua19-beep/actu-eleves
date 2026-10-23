@@ -47,6 +47,7 @@ Règles de choix, à respecter strictement :
 
 Règles communes :
 
+- **Date** : annonce celle du jour de publication, c'est-à-dire le lendemain du jour où tu écris (tu écris le dimanche et le mercredi soir, l'épisode sort le lundi et le jeudi).
 - Les élèves sont vouvoyés collectivement (« vous »). Ton clair, vivant et précis, sans infantiliser.
 - **Neutralité** : aucune opinion personnelle. Sur la politique locale ou nationale, des faits et les positions de chacun, jamais de parti pris.
 - **Cite la source à l'oral** (« selon Tahiti Infos », « d'après RNZ Pacific »).
