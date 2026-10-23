@@ -1,0 +1,42 @@
+# Quand la routine Claude pousse ses brouillons sur une branche claude/…,
+# on ouvre une demande de fusion (pull request) dont le texte contient les
+# deux scripts : le professeur les lit dans le courriel de GitHub, corrige au
+# besoin, puis fusionne pour publier.
+name: Brouillons à relire
+on:
+  push:
+    branches: ["claude/**"]
+permissions:
+  contents: read
+  pull-requests: write
+jobs:
+  demande:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Ouvrir la demande de fusion
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          python3 - > corps.md <<'PY'
+          import json
+          from pathlib import Path
+          reserve = {i["uid"]: i for i in json.loads(Path("travail/candidats.json").read_text()).get("items", [])}
+          print("**Rien n'est publié tant que vous ne fusionnez pas.**\n")
+          print("- Publier : bouton **Merge pull request**, puis **Confirm merge**.")
+          print("- Corriger : onglet **Files changed**, « … » sur le fichier `script.txt`, **Edit file**, puis **Commit changes**.")
+          print("- Refuser : bouton **Close pull request**.\n")
+          for cle, nom in (("college", "Collège"), ("lycee", "Lycée")):
+              s = Path(f"travail/{cle}/script.txt")
+              if not s.exists():
+                  continue
+              sel = json.loads(Path(f"travail/{cle}/selection.json").read_text())
+              print(f"## {nom}\n")
+              for it in sel.get("items", []):
+                  c = reserve.get(it.get("uid"), {})
+                  print(f"- [{c.get('titre', '?')}]({c.get('url', '')}) — {c.get('source', '')}")
+              print("\n" + s.read_text().strip() + "\n")
+          PY
+          gh pr create --base main --head "$GITHUB_REF_NAME" \
+            --title "À relire : L'actu du fenua du $(TZ=Pacific/Tahiti date +%d/%m)" \
+            --body-file corps.md || gh pr edit "$GITHUB_REF_NAME" --body-file corps.md

@@ -1,0 +1,48 @@
+# Après validation (fusion de la demande), fabrique les épisodes en attente
+# (voix Microsoft, Piper en secours) et publie sur GitHub Pages.
+name: Publier
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+concurrency:
+  group: depot
+  cancel-in-progress: false
+jobs:
+  publier:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploiement.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - name: Scripts en attente ?
+        id: attente
+        run: ls travail/*/script.txt >/dev/null 2>&1 && echo "oui=1" >> "$GITHUB_OUTPUT" || true
+      - uses: actions/setup-python@v5
+        if: steps.attente.outputs.oui
+        with:
+          python-version: "3.12"
+      - name: Fabriquer les épisodes
+        if: steps.attente.outputs.oui
+        run: |
+          pip install -q -r requirements.txt
+          python episode.py
+          git config user.name "github-actions"
+          git config user.email "github-actions@users.noreply.github.com"
+          git add -A docs etat travail
+          git commit -m "Épisodes du $(TZ=Pacific/Tahiti date +%Y-%m-%d)"
+          git pull --rebase origin main
+          git push origin main
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs
+      - id: deploiement
+        uses: actions/deploy-pages@v4

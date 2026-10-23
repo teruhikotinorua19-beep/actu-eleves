@@ -1,0 +1,16 @@
+{
+  "_lisez_moi": "Sources d'actualité des chaînes élèves. Même format que la veille de la Ressourcerie ; le champ « rubrique » (polynesie, oceanie, monde) range chaque source. Ajouter une source : copier un bloc, changer id, nom, url, rubrique.",
+  "profil": {
+    "fenetre_defaut_jours": 5
+  },
+  "sources": [
+    {"id": "tahiti-infos", "nom": "Tahiti Infos", "rubrique": "polynesie", "type": "rss", "actif": true, "url": "https://www.tahiti-infos.com/xml/syndication.rss", "max": 40},
+    {"id": "tntv", "nom": "TNTV", "rubrique": "polynesie", "type": "rss", "actif": true, "url": "https://www.tntvnews.pf/feed/", "max": 40},
+    {"id": "rnz-pacific", "nom": "RNZ Pacific", "rubrique": "oceanie", "type": "rss", "actif": true, "url": "https://www.rnz.co.nz/rss/pacific.xml", "max": 40},
+    {"id": "nc-la1ere", "nom": "Nouvelle-Calédonie la 1ère", "rubrique": "oceanie", "type": "rss", "actif": true, "url": "https://la1ere.franceinfo.fr/nouvellecaledonie/rss", "max": 30},
+    {"id": "rfi-asie-pacifique", "nom": "RFI Asie-Pacifique", "rubrique": "oceanie", "type": "rss", "actif": true, "url": "https://www.rfi.fr/fr/asie-pacifique/rss", "max": 30},
+    {"id": "franceinfo-monde", "nom": "franceinfo", "rubrique": "monde", "type": "rss", "actif": true, "url": "https://www.franceinfo.fr/monde.rss", "max": 30},
+    {"id": "lemonde-international", "nom": "Le Monde", "rubrique": "monde", "type": "rss", "actif": true, "url": "https://www.lemonde.fr/international/rss_full.xml", "max": 30},
+    {"id": "lemonde-planete", "nom": "Le Monde (Planète)", "rubrique": "monde", "type": "rss", "actif": true, "url": "https://www.lemonde.fr/planete/rss_full.xml", "max": 20}
+  ]
+}

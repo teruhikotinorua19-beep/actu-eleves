@@ -1,0 +1,30 @@
+# Collecte quotidienne de l'actualité : alimente la réserve travail/candidats.json.
+# Elle tourne ici parce que l'environnement cloud de Claude n'a pas accès aux
+# sites de presse. Les brouillons (dimanche et mercredi soir) puisent dans la réserve.
+name: Collecter l'actualité
+on:
+  schedule:
+    - cron: "0 3 * * *"   # 17 h à Tahiti
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: depot
+  cancel-in-progress: false
+jobs:
+  collecter:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python collecte.py
+      - name: Committer la réserve
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@users.noreply.github.com"
+          git add travail/candidats.json
+          git commit -m "Réserve du $(TZ=Pacific/Tahiti date +%Y-%m-%d)" || exit 0
+          git pull --rebase origin main
+          git push
