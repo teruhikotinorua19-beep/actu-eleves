@@ -26,7 +26,7 @@ HERE = Path(__file__).resolve().parent
 VUS = HERE / "etat" / "vus.json"
 CANDIDATS = HERE / "travail" / "candidats.json"
 GARDER_JOURS = 5           # un épisode couvre au plus les 4 ou 5 derniers jours
-MAX_PAR_RUBRIQUE = 60      # plafond pour garder le fichier lisible par l'agent
+MAX_PAR_RUBRIQUE = 80      # plafond pour garder le fichier lisible par l'agent
 
 
 def collecter_wordpress(src, depuis):
