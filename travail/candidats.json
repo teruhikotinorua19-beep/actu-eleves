@@ -1,5 +1,5 @@
 {
- "genere": "2026-10-24T05:27+00:00",
+ "genere": "2026-10-24T08:44+00:00",
  "items": [
   {
    "uid": "214c96fdef39d3c3",
@@ -614,6 +614,69 @@
    "resume": "Look back on the action as the PNG Orchids host the Fiji Bulikula in Port Moresby."
   },
   {
+   "uid": "50f7d648d6d729c6",
+   "rubrique": "oceanie",
+   "titre": "Tsunami warning cancelled after magnitude 7.2 quake off Vanuatu",
+   "source": "RNZ Pacific",
+   "date": "2026-10-24",
+   "url": "https://www.rnz.co.nz/news/world/2127034/magnitude-7-point-2-quake-off-vanuatu-triggers-tsunami-warning",
+   "resume": "A tsunami warning has been cancelled after a 7.2 magnitude quake off Vanuatu."
+  },
+  {
+   "uid": "3c46e9fc2b5ddcff",
+   "rubrique": "oceanie",
+   "titre": "Recap: Rugby League World Cup: PNG v Samoa",
+   "source": "RNZ Pacific",
+   "date": "2026-10-24",
+   "url": "https://www.rnz.co.nz/news/pacific/2126008/recap-rugby-league-world-cup-png-v-samoa",
+   "resume": "Look back on the action as Toa Samoa runs riot in Port Moresby."
+  },
+  {
+   "uid": "b533df1b1b6e2147",
+   "rubrique": "oceanie",
+   "titre": "RÉSULTATS. Super Ligue 2026 : l’AS Magenta sacrée championne de Nouvelle-Calédonie pour la 13e fois",
+   "source": "Nouvelle-Calédonie la 1ère",
+   "date": "2026-10-24",
+   "url": "https://la1ere.franceinfo.fr/nouvellecaledonie/resultats-super-ligue-2026-l-as-magenta-sacree-championne-de-nouvelle-caledonie-pour-la-13e-fois-1751280.html",
+   "resume": "Le suspense a pris fin avant même le dernier match de la saison. Grâce au match nul de l’ASC Gaïca face au SC Ne Drehu (3-3), l’AS Magenta est sacrée championne de Nouvelle-Calédonie 2026. Un 13e titre pour le club, qui succède à l’AS Tiga au palmarès."
+  },
+  {
+   "uid": "f3563b76d75c82f9",
+   "rubrique": "oceanie",
+   "titre": "Vanuatu : alerte au tsunami levée après un double séisme",
+   "source": "Nouvelle-Calédonie la 1ère",
+   "date": "2026-10-24",
+   "url": "https://la1ere.franceinfo.fr/nouvellecaledonie/vanuatu-alerte-au-tsunami-levee-apres-un-double-seisme-1751226.html",
+   "resume": "L'alerte au tsunami a été levée après le double séisme de magnitude 6,9 et 6,3 survenu samedi au large de l'archipel du Vanuatu, dans le Pacifique, a indiqué le centre de surveillance des tsunamis."
+  },
+  {
+   "uid": "3d53aa0ab658eedf",
+   "rubrique": "oceanie",
+   "titre": "À Kuala Lumpur, une brume de pollution pour seul horizon",
+   "source": "RFI Asie-Pacifique",
+   "date": "2026-10-24",
+   "url": "https://www.rfi.fr/fr/asie-pacifique/20261024-%C3%A0-kuala-lumpur-une-brume-de-pollution-pour-seul-horizon",
+   "resume": "En Malaisie, la brume de pollution venue d’Indonésie enveloppe Kuala Lumpur et plusieurs régions du pays. Favorisés par la sécheresse liée à El Niño, les feux de forêt et de tourbières dégradent fortement la qualité de l’air, faisant peser des risques sur la santé des populations, en particulier les plus vulnérables."
+  },
+  {
+   "uid": "3f2c8c3ec592ff57",
+   "rubrique": "oceanie",
+   "titre": "Après l’expertise de l’IRD, la Polynésie réaffirme son opposition à la mine sous-marine",
+   "source": "Outremers360",
+   "date": "2026-10-24",
+   "url": "https://outremers360.com/bassin-pacifique-appli/apres-lexpertise-de-lird-la-polynesie-reaffirme-son-opposition-a-la-mine-sous-marine",
+   "resume": "Les résultats de l’expertise scientifique collective de l’IRD sur les grands fonds marins ont été présentés pour la première fois à la présidence de la Polynésie française ce jeudi. Une étude qui conforte Moetai Brotherson et son gouvernement dans son opposition à..."
+  },
+  {
+   "uid": "35629867c6553022",
+   "rubrique": "oceanie",
+   "titre": "Pacifique : Le Vanuatu frappé par un double séisme majeur",
+   "source": "Outremers360",
+   "date": "2026-10-24",
+   "url": "https://outremers360.com/bassin-pacifique-appli/pacifique-le-vanuatu-frappe-par-un-double-seisme-majeur",
+   "resume": "Un double séisme de magnitude 6,9 et 6,3 s’est produit samedi à 13h30 (locale) au large de l’archipel du Vanuatu, dans le Pacifique. Une alerte au tsunami a été déclenchée avant d’être levée.L’agence de sismologie américaine (USGS) a fait état dans un premier..."
+  },
+  {
    "uid": "4a84618eeff387fa",
    "rubrique": "oceanie",
    "titre": "'Test of regionalism': Pacific church group calls for review of Israel's PIF role",
@@ -929,6 +992,15 @@
    "resume": "La colère gronde en Indonésie alors que les incendies de forêts qui font rage depuis plusieurs mois, ont déjà dévasté près de 2 millions d’hectares et provoqué un épais nuage toxique qui asphyxie la région. Mercredi, des étudiants et des membres de la société civile se sont rassemblés à Pontianak sur l’île de Bornéo, l’une des plus durement touchées par les feux, pour dénoncer l’inaction du gouver"
   },
   {
+   "uid": "efed27c94fad79b6",
+   "rubrique": "oceanie",
+   "titre": "Nouvelle-Calédonie : 43% des Français de l’Hexagone favorables à l’objectif de « poursuivre la trajectoire de décolonisation » du territoire, selon un sondage Ifop pour la fédération Régions et Peuples Solidaires",
+   "source": "Outremers360",
+   "date": "2026-10-22",
+   "url": "https://outremers360.com/bassin-pacifique-appli/nouvelle-caledonie-43-des-francais-de-lhexagone-favorables-a-lobjectif-de-poursuivre-la-trajectoire-de-decolonisation-du-territoire-selon-un-sondage-ifop-pour-la-federation-regions-et-peuples-solidaires",
+   "resume": "L'Institut français d'opinion publique (Ifop, organisme privé de sondages) vient de publier une enquête intitulée « Les Français face aux enjeux de régionalisme et de décentralisation » pour Régions et Peuples Solidaires (R&PS, la fédération des partis..."
+  },
+  {
    "uid": "87eddad270133e5d",
    "rubrique": "oceanie",
    "titre": "'Serious questions to answer': Labour slams Luxon over Israel's Pacific Islands Forum move",
@@ -1008,78 +1080,6 @@
    "date": "2026-10-21",
    "url": "https://la1ere.franceinfo.fr/wallisfutuna/alofi/elus-les-dernieres-missions-avant-l-ouverture-de-la-session-de-fin-d-annee-1750113.html",
    "resume": "Partie le 5 octobre dernier pour une série de rendez-vous à Paris, une partie de la délégation est rentrée ce lundi 19 octobre. Le président de l’Assemblée territoriale, et les deux parlementaires enchaînent les rencontres politiques en Nouvelle-Calédonie."
-  },
-  {
-   "uid": "14ddb5e4a90d4cc2",
-   "rubrique": "oceanie",
-   "titre": "Le gouvernement lance une consultation publique sur la pratique de la pêche dans l'espace maritime de Nouvelle-Calédonie",
-   "source": "Nouvelle-Calédonie la 1ère",
-   "date": "2026-10-21",
-   "url": "https://la1ere.franceinfo.fr/nouvellecaledonie/le-gouvernement-lance-une-consultation-publique-sur-la-pratique-de-la-peche-dans-l-espace-maritime-de-nouvelle-caledonie-1750122.html",
-   "resume": "Du 21 octobre au 5 novembre 2026, les Calédoniens sont invités à donner leur avis sur deux textes de loi. Deux projets d'arrêtés qui doivent être adoptés au Congrès et qui encadrent la pratique de la pêche dans la zone maritime de Nouvelle-Calédonie."
-  },
-  {
-   "uid": "adbbad89f5f478bd",
-   "rubrique": "oceanie",
-   "titre": "Le commerce extérieur calédonien redémarre grâce au nickel, mais le déficit se creuse encore",
-   "source": "Nouvelle-Calédonie la 1ère",
-   "date": "2026-10-21",
-   "url": "https://la1ere.franceinfo.fr/nouvellecaledonie/le-commerce-exterieur-caledonien-redemarre-grace-au-nickel-mais-le-deficit-se-creuse-encore-1750140.html",
-   "resume": "Après le trou d’air de 2025, les échanges de la Nouvelle-Calédonie repartent nettement à la hausse, selon les derniers chiffres de l’Institut de la statistique et des études économiques. Un regain d’activité largement lié au nickel, qui s’accompagne toutefois d’un déficit commercial toujours plus important."
-  },
-  {
-   "uid": "0d53e3dc3a7dcf49",
-   "rubrique": "oceanie",
-   "titre": "Agression de Jean-Christophe Rufin : un militaire né à Nouméa mis en examen et placé en détention",
-   "source": "Nouvelle-Calédonie la 1ère",
-   "date": "2026-10-21",
-   "url": "https://la1ere.franceinfo.fr/nouvellecaledonie/agression-de-jean-christophe-rufin-un-militaire-ne-a-noumea-mis-en-examen-et-place-en-detention-1750095.html",
-   "resume": "L’académicien et prix Goncourt Jean-Christophe Rufin a été violemment agressé à Bourges, dans le centre de la France, le 15 octobre dernier. Un militaire de 23 ans, originaire de Nouvelle-Calédonie, a reconnu une partie des violences en garde à vue. Information confirmée par la procureure de Bourges Céline Visiedo, à NC la 1ère."
-  },
-  {
-   "uid": "6f71c47ff939398b",
-   "rubrique": "oceanie",
-   "titre": "Chine: les dessous de la relance de la filière viticole au Tibet",
-   "source": "RFI Asie-Pacifique",
-   "date": "2026-10-21",
-   "url": "https://www.rfi.fr/fr/podcasts/chronique-des-mati%C3%A8res-premi%C3%A8res/20261021-chine-les-dessous-de-la-relance-de-la-fili%C3%A8re-viticole-au-tibet",
-   "resume": "Du vin sur le toit du monde. Au Tibet, des vignes poussent à plus de 3 500 mètres d’altitude, malgré le froid et des conditions de culture extrêmes. Le domaine Pazhu y produit des blancs, des rouges et même du vin de glace. Une curiosité viticole, mais aussi une vitrine du développement économique voulu par Pékin dans cette région étroitement contrôlée. Comment fait-on pousser du raisin à une tell"
-  },
-  {
-   "uid": "7424b8b6112dc426",
-   "rubrique": "oceanie",
-   "titre": "Regain de tension entre les deux Corées, Pyongyang va réinstaller ses haut-parleurs hostiles à Séoul",
-   "source": "RFI Asie-Pacifique",
-   "date": "2026-10-21",
-   "url": "https://www.rfi.fr/fr/asie-pacifique/20261021-regain-de-tension-entre-les-deux-cor%C3%A9es-pyongyang-va-r%C3%A9installer-ses-haut-parleurs-hostiles-%C3%A0-s%C3%A9oul",
-   "resume": "Les tensions entre la Corée du Nord et la Corée du Sud se sont intensifiées ces dernières semaines. Séoul a accusé Pyongyang, le 21 septembre, d'être derrière l'explosion d'une mine terrestre dans la zone démilitarisée. Signe de l'hostilité grandissante entre les deux pays : la Corée du Nord a annoncé, mercredi 21 octobre, la réinstallation imminente de haut-parleurs diffusant des messages hostile"
-  },
-  {
-   "uid": "3d7459a426bbae7d",
-   "rubrique": "oceanie",
-   "titre": "Philippines, la fabrique des miss",
-   "source": "RFI Asie-Pacifique",
-   "date": "2026-10-21",
-   "url": "https://www.rfi.fr/fr/podcasts/grand-reportage/20261021-philippines-la-fabrique-des-miss",
-   "resume": "Les Philippines vivent régulièrement au rythme des concours de beauté. L'archipel d'Asie du Sud-Est a remporté, ces dernières années, 15 titres. Bien plus que de simples concours, les élections de Miss sont une véritable institution. Sans s’arrêter sur l’image de la femme et de la jeune fille et sur les éventuelles dérives, la caravane passe. Dans la ferveur. Source de revenus, tremplin social, ex"
-  },
-  {
-   "uid": "32d95fa09f08f7fe",
-   "rubrique": "oceanie",
-   "titre": "Le pouvoir de Narendra Modi peut-il vaciller?",
-   "source": "RFI Asie-Pacifique",
-   "date": "2026-10-20",
-   "url": "https://www.rfi.fr/fr/podcasts/d%C3%A9bat-du-jour/20261020-le-pouvoir-de-narendra-modi-peut-il-vaciller",
-   "resume": "Le parti n’a que quelques mois d’existence mais il mobilise déjà plusieurs millions de personnes en Inde. Son nom : les cafards. Après avoir obtenu la démission du ministre de l’Éducation, ses militants s’en prennent désormais au président de la Commission électorale accusé de corruption. Face à cela, le pouvoir multiplie les arrestations. Mais le mouvement continue avec autant de force. Que peut "
-  },
-  {
-   "uid": "cf1bc12816c2f256",
-   "rubrique": "oceanie",
-   "titre": "Australie: la députée Helen Haines grièvement blessée dans une attaque près de sa permanence",
-   "source": "RFI Asie-Pacifique",
-   "date": "2026-10-20",
-   "url": "https://www.rfi.fr/fr/asie-pacifique/20261020-australie-la-d%C3%A9put%C3%A9e-helen-haines-gri%C3%A8vement-bless%C3%A9e-dans-une-attaque-pr%C3%A8s-de-sa-permanence",
-   "resume": "La députée indépendante australienne Helen Haines, connue pour ses combats contre la corruption et le changement climatique, a été percutée volontairement par une voiture devant sa permanence électorale, lundi 19 octobre 2026. Elle a été amputée des deux jambes, a annoncé mercredi son mari, qui s'est déclaré « bouleversé par le soutien » reçu depuis cette attaque."
   },
   {
    "uid": "352844cf3c79f012",
@@ -1215,6 +1215,141 @@
    "date": "2026-10-24",
    "url": "https://www.franceinfo.fr/environnement/evenements-meteorologiques-extremes/tempetes/foyers-prives-d-electricite-transports-a-l-arret-pertes-de-marchandises-les-degats-collateraux-de-la-tempete-austen_8251444.html#xtor=RSS-3-%5Bgeneral%5D",
    "resume": "Jusqu'à 300 000 foyers ont été privés d’électricité, principalement en Normandie, en Bretagne, dans les Hauts-de-France, les Pays de la Loire et le Centre-Val de Loire. La tempête Austen a également entraîné de nombreuses perturbations dans les transports. France Télévisions fait le point."
+  },
+  {
+   "uid": "2d04e5dca15792b2",
+   "rubrique": "monde",
+   "titre": "\"Une culture de la manifestation fortement pacifiée\" : en Allemagne, la police mise sur la communication et la désescalade",
+   "source": "franceinfo",
+   "date": "2026-10-24",
+   "url": "https://www.franceinfo.fr/monde/europe/allemagne/une-culture-de-la-manifestation-fortement-pacifiee-en-allemagne-la-police-mise-sur-la-communication-et-la-desescalade_8251978.html#xtor=RSS-3-%5Bgeneral%5D",
+   "resume": "Alors que les violences en marge des manifestations font débat en France, un sociologue et un spécialiste de la police allemande expliquent les différences d’approche entre les deux pays."
+  },
+  {
+   "uid": "0337518cba2b2e76",
+   "rubrique": "monde",
+   "titre": "Manifestations, scènes d'émeutes, musées fermés... Les touristes chinois hésitent à venir en France",
+   "source": "franceinfo",
+   "date": "2026-10-24",
+   "url": "https://www.franceinfo.fr/societe/manifestations/manifestations-scenes-d-emeutes-musees-fermes-les-touristes-chinois-hesitent-a-venir-en-france_8251339.html#xtor=RSS-3-%5Bgeneral%5D",
+   "resume": "En Chine, les images des violences du week-end dernier ont largement circulé sur les réseaux sociaux, et dans les médias. La multiplication des manifestations inquiète les touristes chinois qui prévoient de visiter Paris ces prochaines semaines."
+  },
+  {
+   "uid": "cc21c2f5c8281d5f",
+   "rubrique": "monde",
+   "titre": "La résidence de villégiature d'Adolphe Hitler, \"le nid d'aigle\", incendiée en Bavière, un suspect arrêté",
+   "source": "franceinfo",
+   "date": "2026-10-24",
+   "url": "https://www.franceinfo.fr/monde/europe/allemagne/la-residence-de-villegiature-d-adolphe-hitler-le-nid-d-aigle-incendiee-en-baviere-un-suspect-arrete_8251921.html#xtor=RSS-3-%5Bgeneral%5D",
+   "resume": "Peu après le début de l'incendie, \"une personne suspecte a attiré l'attention des enquêteurs\", a précisé la police, sans toutefois donner d'informations sur la cause de l'incendie."
+  },
+  {
+   "uid": "a9354e14f8825a58",
+   "rubrique": "monde",
+   "titre": "En Israël, les impasses de la campagne des législatives",
+   "source": "Le Monde",
+   "date": "2026-10-24",
+   "url": "https://www.lemonde.fr/idees/article/2026/10/24/en-israel-les-impasses-de-la-campagne-des-legislatives_6799681_3232.html",
+   "resume": "Les électeurs israéliens votent le 27 octobre. Gadi Eisenkot, l’adversaire centriste de Benyamin Nétanyahou, désapprouve le projet de colonisation E1, qui couperait en deux le plus grand territoire palestinien. Mais il s’oppose avec autant de fermeté que le premier ministre à la création d’un Etat palestinien."
+  },
+  {
+   "uid": "083495d5d0baa5d8",
+   "rubrique": "monde",
+   "titre": "Présidentielle au Brésil : Flavio Bolsonaro plus policé, Lula plus offensif lors d’un second débat crucial",
+   "source": "Le Monde",
+   "date": "2026-10-24",
+   "url": "https://www.lemonde.fr/international/article/2026/10/24/presidentielle-au-bresil-flavio-bolsonaro-plus-police-lula-plus-offensif-lors-d-un-second-debat-crucial_6799678_3210.html",
+   "resume": "Alors que les deux candidats à la présidentielle brésilienne sont à égalité dans les sondages, le dernier débat télévisé pouvait faire basculer les indécis. Si Flavio Bolsonaro a pu développer ses propositions économiques, il a aussi trébuché avec une attaque personnelle contre Luiz Inacio Lula da Silva qui s’est retournée contre lui."
+  },
+  {
+   "uid": "f4c824adec015b8d",
+   "rubrique": "monde",
+   "titre": "En Jordanie, le choc et l’unité après une attaque meurtrière contre une église orthodoxe",
+   "source": "Le Monde",
+   "date": "2026-10-24",
+   "url": "https://www.lemonde.fr/international/article/2026/10/24/en-jordanie-le-choc-et-l-unite-apres-une-attaque-meurtriere-contre-une-eglise-orthodoxe_6799670_3210.html",
+   "resume": "Les tirs de trois attaquants ont fait au moins sept morts dans un village situé à une centaine de kilomètres au sud d’Amman, vendredi. Le royaume, qui a fait de la stabilité une de ses priorités, craint d’être affecté par les conflits qui déchirent ses voisins."
+  },
+  {
+   "uid": "246d7d9ade746c7b",
+   "rubrique": "monde",
+   "titre": "En Hongrie, lors des cérémonies des 70 ans de la révolution de 1956, Péter Magyar célèbre une nouvelle ère pour le pays",
+   "source": "Le Monde",
+   "date": "2026-10-24",
+   "url": "https://www.lemonde.fr/international/article/2026/10/24/en-hongrie-lors-des-ceremonies-des-70-ans-de-la-revolution-de-1956-peter-magyar-celebre-une-nouvelle-ere-pour-le-pays_6799667_3210.html",
+   "resume": "A Budapest, le premier ministre Péter Magyar a célébré en grande pompe l’anniversaire du soulèvement contre l’URSS, pour marquer le retour de la Hongrie du côté d’une « Europe libre et démocratique ». Six mois après la défaite de Viktor Orban dans les urnes, la population reste toutefois profondément divisée."
+  },
+  {
+   "uid": "2341405edae4b213",
+   "rubrique": "monde",
+   "titre": "La raffinerie nigériane de Dangote entre en Bourse, portée par l’envolée des prix des carburants",
+   "source": "Le Monde",
+   "date": "2026-10-24",
+   "url": "https://www.lemonde.fr/economie/article/2026/10/24/la-raffinerie-nigeriane-de-dangote-entre-en-bourse-portee-par-l-envolee-des-prix-des-carburants_6799662_3234.html",
+   "resume": "Une sursouscription est anticipée pour cette opération qui se termine mardi 27 octobre. La mégaraffinerie de Lagos affiche des bénéfices en forte hausse, dans un contexte géopolitique et économique porteur."
+  },
+  {
+   "uid": "d78cfc8ca74cd201",
+   "rubrique": "monde",
+   "titre": "Elections législatives en Israël : « Les idées illibérales, jadis cantonnées aux marges politiques et religieuses, sont devenues majoritaires »",
+   "source": "Le Monde",
+   "date": "2026-10-24",
+   "url": "https://www.lemonde.fr/idees/article/2026/10/24/elections-legislatives-en-israel-les-idees-illiberales-jadis-cantonnees-aux-marges-politiques-et-religieuses-sont-devenues-majoritaires_6799659_3232.html",
+   "resume": "Les Européens, qui espèrent qu’un nouveau gouvernement pourra restaurer l’« ancien Israël » après les élections prévues le 27 octobre, se trompent, développe la chercheuse Beth Oppenheim, dans une tribune au « Monde »."
+  },
+  {
+   "uid": "4be701b29ac1386d",
+   "rubrique": "monde",
+   "titre": "EN DIRECT, guerre en Ukraine : Kiev dit avoir de nouveau une « connexion stable » du système Starlink, crucial pour son armée",
+   "source": "Le Monde",
+   "date": "2026-10-24",
+   "url": "https://www.lemonde.fr/international/live/2026/10/24/en-direct-guerre-en-ukraine-des-negociations-directes-avec-la-russie-sous-mediation-americaine-prevues-pour-novembre-confirme-volodymyr-zelensky_6796922_3210.html",
+   "resume": "« Nous enregistrons des vitesses supérieures à 400 km/h et la connexion [au système Starlink de SpaceX] est stable », s’est félicité le ministre de la défense ukrainien, samedi matin, après plusieurs jours de bridage de sa vitesse sur fond de tensions avec Washington."
+  },
+  {
+   "uid": "469eb29d4f2691a4",
+   "rubrique": "monde",
+   "titre": "Comment protéger nos enfants des pesticides ?",
+   "source": "Le Monde (Planète)",
+   "date": "2026-10-24",
+   "url": "https://www.lemonde.fr/intimites/article/2026/10/24/comment-proteger-nos-enfants-des-pesticides_6799676_6190330.html",
+   "resume": "« Chaud devant ». Deux ouvrages – « Pesticides, leurs ravages sur la santé des enfants », de Laurence Huc, et « Pesticides kids », de Sophie Chapelle et Nolwenn Weiler – plongent dans le drame des cancers pédiatriques liés à ces produits chimiques, en France. Les familles d’enfants atteints y plaident pour la transition écologique."
+  },
+  {
+   "uid": "a93b62f53c1022be",
+   "rubrique": "monde",
+   "titre": "A69 : le tarif de péage de la future autoroute, à plus de 20 euros l’aller-retour, embarrasse ses partisans",
+   "source": "Le Monde (Planète)",
+   "date": "2026-10-24",
+   "url": "https://www.lemonde.fr/planete/article/2026/10/24/autoroute-a69-a-plus-de-20-euros-l-aller-retour-le-tarif-du-peage-embarrasse-les-partisans-de-l-equipement_6799664_3244.html",
+   "resume": "L’annulation d’une subvention par le Conseil d’Etat a augmenté le prix pour circuler sur cette liaison autoroutière controversée entre Toulouse et Castres qui doit être inaugurée le 6 novembre. Les collectivités craignent que les automobilistes ne l’évitent."
+  },
+  {
+   "uid": "1cc838c2dfe5a1bb",
+   "rubrique": "monde",
+   "titre": "Tempête Austen : le Pas-de-Calais maintenu en vigilance orange pluie-inondation, 146 000 foyers sans électricité dans l’Ouest et le Nord",
+   "source": "Le Monde (Planète)",
+   "date": "2026-10-24",
+   "url": "https://www.lemonde.fr/planete/article/2026/10/24/tempete-austen-le-pas-de-calais-maintenu-en-vigilance-orange-pluie-inondation-146-000-foyers-sans-electricite-dans-l-ouest-et-le-nord_6799655_3245.html",
+   "resume": "Le département entrera en alerte orange à 21 heures samedi jusqu’à 4 heures dimanche, en raison du passage de la perturbation Boelo, à la suite de la tempête Austen."
+  },
+  {
+   "uid": "c1eda57cc6a6e903",
+   "rubrique": "monde",
+   "titre": "Le nord-ouest de la France balayé par la tempête Austen",
+   "source": "franceinfo",
+   "date": "2026-10-24",
+   "url": "https://www.franceinfo.fr/environnement/evenements-meteorologiques-extremes/tempetes/le-nord-ouest-de-la-france-balaye-par-la-tempete-austen_8251981.html#xtor=RSS-3-%5Bgeneral%5D",
+   "resume": "Lors du passage de la tempête Austen, des rafales dépassant les 160 km/h ont balayé le Finistère avant de toucher la Normandie, causant de nombreux dégâts matériels. Arbres déracinés, toitures arrachées et véhicules endommagés témoignent de la violence des vents. Le passage de la tempête a également coûté la vie à un homme de 62 ans, qui tronçonnait un arbre."
+  },
+  {
+   "uid": "a0fe8ca15008d37d",
+   "rubrique": "monde",
+   "titre": "Météo-France place le Pas-de-Calais en vigilance orange \"pluie-inondations\" à partir de 20 heures",
+   "source": "franceinfo",
+   "date": "2026-10-24",
+   "url": "https://www.franceinfo.fr/environnement/meteo/meteo-france-place-le-pas-de-calais-en-vigilance-orange-pluie-inondations-a-partir-de-20-heures_8251906.html#xtor=RSS-3-%5Bgeneral%5D",
+   "resume": "\"Le caractère préoccupant de cette perturbation n'est pas son intensité, mais la persistance sur plusieurs jours de précipitations abondantes\", précise l'agence météorologique."
   },
   {
    "uid": "79bb3e76fe6d54b6",
@@ -1485,141 +1620,6 @@
    "date": "2026-10-23",
    "url": "https://www.lemonde.fr/economie/article/2026/10/23/les-forges-de-tarbes-producteurs-des-corps-d-obus-du-canon-caesar-demandent-leur-placement-en-redressement-judiciaire_6799119_3234.html",
    "resume": "« Cette demande vise à préserver l’activité de l’entreprise », a fait savoir le groupe Europlasma dans un communiqué publié jeudi soir, quelques heures après en avoir informé les représentants des salariés lors d’un CSE extraordinaire."
-  },
-  {
-   "uid": "91782156a6a04773",
-   "rubrique": "monde",
-   "titre": "Sur la Route 66, à Amarillo, la guerre de l’eau et des data centers : « Nous croyons que Dieu nous a confié cette terre pour en prendre soin »",
-   "source": "Le Monde",
-   "date": "2026-10-23",
-   "url": "https://www.lemonde.fr/international/article/2026/10/23/sur-la-route-66-a-amarillo-la-guerre-de-l-eau-et-des-data-centers-nous-croyons-que-dieu-nous-a-confie-cette-terre-pour-en-prendre-soin_6799116_3210.html",
-   "resume": "« Sur la Route 66, pouls de l’Amérique » (4/6). Dans cette ville agricole texane de 210 000 âmes, l’arrivée en masse, et par effraction, des centres de données agite les esprits sur la question de l’eau. Une ressource qui se raréfie dans cette région et avec laquelle éleveurs et agriculteurs ont, comme avec leur terre, un lien « indéfectible »."
-  },
-  {
-   "uid": "b9dc2c4d2d40b76e",
-   "rubrique": "monde",
-   "titre": "Au Sénégal, la colère sociale enfle à l’approche des Jeux olympiques de la jeunesse",
-   "source": "Le Monde",
-   "date": "2026-10-23",
-   "url": "https://www.lemonde.fr/afrique/article/2026/10/23/au-senegal-la-colere-sociale-enfle-a-l-approche-des-jeux-olympiques-de-la-jeunesse_6799115_3212.html",
-   "resume": "Alors que Dakar accueille, à partir du 31 octobre, la toute première édition africaine des Jeux consacrés aux jeunes athlètes, le mouvement social contre la vie chère se poursuit, avec une grève du secteur public qui s’achève ce 23 octobre. Le pays doit aussi œuvrer à apurer les finances de l’Etat dans le cadre d’un accord avec le FMI."
-  },
-  {
-   "uid": "5700fbd4f6e762b4",
-   "rubrique": "monde",
-   "titre": "En Jordanie, une attaque dans une église fait au moins sept morts",
-   "source": "Le Monde",
-   "date": "2026-10-23",
-   "url": "https://www.lemonde.fr/international/article/2026/10/23/en-jordanie-une-fusillade-dans-une-eglise-fait-au-moins-six-morts_6799108_3210.html",
-   "resume": "Les attaques contre les lieux de culte sont rares dans le pays ; les chrétiens représentent 2 % à 3 % de sa population, majoritairement musulmane."
-  },
-  {
-   "uid": "cad51ac7fd2cb7af",
-   "rubrique": "monde",
-   "titre": "Au Cenquatre, à Paris, le regard de Walid Raad sur les blessures du Liban",
-   "source": "Le Monde",
-   "date": "2026-10-23",
-   "url": "https://www.lemonde.fr/culture/article/2026/10/23/au-cenquatre-a-paris-le-regard-de-walid-raad-sur-les-blessures-du-liban_6799104_3246.html",
-   "resume": "L’artiste expose, dans le cadre du Festival d’automne, des installations, des vidéos ou des collages, dont il accompagne la découverte en les commentant."
-  },
-  {
-   "uid": "548a9debebed21a3",
-   "rubrique": "monde",
-   "titre": "Au Royaume-Uni, « Be ready », la campagne pour préparer la population aux cyberattaques et aux catastrophes climatiques",
-   "source": "Le Monde",
-   "date": "2026-10-23",
-   "url": "https://www.lemonde.fr/international/article/2026/10/23/au-royaume-uni-be-ready-la-campagne-pour-preparer-la-population-aux-cyberattaques-et-aux-catastrophes-climatiques_6799100_3210.html",
-   "resume": "Le gouvernement britannique invite la population à constituer des réserves pour tenir trois jours en cas d’arrêt des communications ou de rupture d’approvisionnement dans les magasins."
-  },
-  {
-   "uid": "dcb4b37e265484f8",
-   "rubrique": "monde",
-   "titre": "La crise dans le Golfe accroît la dépendance au charbon des pays d’Afrique australe",
-   "source": "Le Monde",
-   "date": "2026-10-23",
-   "url": "https://www.lemonde.fr/afrique/article/2026/10/23/la-crise-dans-le-golfe-accroit-la-dependance-au-charbon-des-pays-d-afrique-australe_6799095_3212.html",
-   "resume": "Le blocage du détroit d’Ormuz a fait grimper les cours du charbon, énergie très polluante mais encore relativement bon marché. Pour les pays exportateurs comme l’Afrique du Sud et le Mozambique, cette hausse est une aubaine, mais elle les éloigne de leurs objectifs en matière de transition énergétique."
-  },
-  {
-   "uid": "ccf76d96a4d7bfb4",
-   "rubrique": "monde",
-   "titre": "L’ancien président sénégalais Macky Sall abandonne la course au secrétariat général des Nations unies mais pas ses ambitions politiques",
-   "source": "Le Monde",
-   "date": "2026-10-23",
-   "url": "https://www.lemonde.fr/afrique/article/2026/10/23/l-ancien-president-senegalais-macky-sall-abandonne-la-course-au-secretariat-general-des-nations-unies-mais-pas-ses-ambitions-politiques_6799096_3212.html",
-   "resume": "Le 17 octobre, l’ex-chef de l’Etat a annoncé son désistement à la succession d’Antonio Guterres faute de soutien, notamment de l’Union africaine, et à cause de la mobilisation des victimes des violences policières durant son deuxième mandat."
-  },
-  {
-   "uid": "883275771092b2d9",
-   "rubrique": "monde",
-   "titre": "Kenya : un immeuble en construction d’une quinzaine d’étages s’effondre à Nairobi, des opérations de sauvetage en cours",
-   "source": "Le Monde",
-   "date": "2026-10-23",
-   "url": "https://www.lemonde.fr/afrique/article/2026/10/23/kenya-un-immeuble-en-construction-d-au-moins-dix-etages-s-effondre-a-nairobi-des-operations-de-sauvetage-en-cours_6799084_3212.html",
-   "resume": "Sept personnes ont été dans un premier temps portées disparues après l’effondrement du bâtiment, et les secours sont parvenus à entrer en contact avec certaines d’entre elles sous les décombres."
-  },
-  {
-   "uid": "0f59076b168cc9f2",
-   "rubrique": "monde",
-   "titre": "En Serbie, à la veille des législatives, le mouvement étudiant veut « réparer ce pays privé d’Etat de droit »",
-   "source": "Le Monde",
-   "date": "2026-10-23",
-   "url": "https://www.lemonde.fr/international/article/2026/10/23/en-serbie-a-la-veille-des-legislatives-le-mouvement-etudiant-veut-reparer-ce-pays-prive-d-etat-de-droit_6799081_3210.html",
-   "resume": "Des milliers d’étudiants ont arpenté les villages pour aller à la rencontre d’un électorat désinformé et éloigné de la politique. Malgré leurs divergences idéologiques, ils se rassemblent dans leur opposition au dirigeant Aleksandar Vucic, qu’ils peuvent espérer battre dans les urnes dimanche 25 octobre."
-  },
-  {
-   "uid": "41ea6ebc363dfe7b",
-   "rubrique": "monde",
-   "titre": "Tempête Austen : trois départements du nord de la France restent en vigilance orange, 242 000 foyers privés d’électricité",
-   "source": "Le Monde (Planète)",
-   "date": "2026-10-23",
-   "url": "https://www.lemonde.fr/planete/article/2026/10/23/tempete-austen-trois-departements-du-nord-de-la-france-restent-en-vigilance-orange-242-000-foyers-prives-d-electricite_6799023_3245.html",
-   "resume": "Seuls le Nord, le Pas-de-Calais et la Somme sont toujours placés en vigilance orange pour vent. Un homme est mort en coupant un arbre après le passage de la tempête vendredi dans la Manche."
-  },
-  {
-   "uid": "260d9349949c2958",
-   "rubrique": "monde",
-   "titre": "Derrière la condamnation d’Olivier Bouygues, « un sérieux avertissement pour les grands propriétaires de domaines de chasse »",
-   "source": "Le Monde (Planète)",
-   "date": "2026-10-23",
-   "url": "https://www.lemonde.fr/societe/article/2026/10/23/derriere-la-condamnation-d-olivier-bouygues-un-serieux-avertissement-pour-les-grands-proprietaires-de-domaines-de-chasse_6799135_3224.html",
-   "resume": "L’homme d’affaires a été condamné à deux ans de prison avec sursis et 750 000 euros d’amende pour l’abattage, par ses gardes-chasse, d’espèces protégées sur sa propriété solognote. Il a fait appel."
-  },
-  {
-   "uid": "3fc37432e0b13f68",
-   "rubrique": "monde",
-   "titre": "Le milliardaire Olivier Bouygues condamné à deux ans de prison avec sursis pour destruction d’espèces d’oiseaux protégées",
-   "source": "Le Monde (Planète)",
-   "date": "2026-10-23",
-   "url": "https://www.lemonde.fr/societe/article/2026/10/23/le-milliardaire-olivier-bouygues-condamne-a-deux-ans-de-prison-avec-sursis-pour-destruction-d-especes-d-oiseaux-protegees_6799093_3224.html",
-   "resume": "Le tribunal d’Orléans a retenu dans son jugement « l’existence d’un préjudice écologique » dont les six prévenus se sont rendus « entièrement responsables » en chassant sur le domaine de l’homme d’affaires en Sologne. Son avocat a annoncé son intention de faire appel."
-  },
-  {
-   "uid": "a670aa0080fa0e86",
-   "rubrique": "monde",
-   "titre": "Le Népal, après le « tsunami des montagnes », ne veut pas rebâtir à l’identique : « Si nous reconstruisons les routes au même endroit, les populations s’installeront à proximité »",
-   "source": "Le Monde (Planète)",
-   "date": "2026-10-23",
-   "url": "https://www.lemonde.fr/planete/article/2026/10/23/le-nepal-apres-le-tsunami-des-montagnes-ne-veut-pas-rebatir-a-l-identique-si-nous-reconstruisons-les-routes-au-meme-endroit-les-populations-s-installeront-a-proximite_6799073_3244.html",
-   "resume": "Les autorités du pays himalayen envisagent de décréter inconstructibles les zones situées trop près du maximum de la crue qui a dévasté la vallée de la Trishuli en août. Mais dans ce pays très escarpé et soumis à de nombreux aléas, il est difficile d’échapper à tous les risques."
-  },
-  {
-   "uid": "3bc257091793f55f",
-   "rubrique": "monde",
-   "titre": "Tempête Austen : les transports dans le nord-ouest de la France fortement perturbés vendredi",
-   "source": "Le Monde (Planète)",
-   "date": "2026-10-23",
-   "url": "https://www.lemonde.fr/economie/article/2026/10/23/tempete-austen-les-transports-dans-le-nord-ouest-de-la-france-fortement-perturbes-vendredi_6799037_3234.html",
-   "resume": "La circulation de nombreux trains est interrompue en Normandie, en Ile-de-France, en Bretagne et dans les Hauts-de-France, et des restrictions de circulation ont été mises en place sur le réseau routier dans l’ouest du pays."
-  },
-  {
-   "uid": "37d4020701c59526",
-   "rubrique": "monde",
-   "titre": "Après les incendies de la forêt de Fontainebleau, peintres, naturalistes et écrivains se mobilisent pour la renaissance de ce « monument naturel »",
-   "source": "Le Monde (Planète)",
-   "date": "2026-10-23",
-   "url": "https://www.lemonde.fr/idees/article/2026/10/23/apres-les-incendies-de-la-foret-de-fontainebleau-peintres-naturalistes-et-ecrivains-se-mobilisent-pour-la-renaissance-de-ce-monument-naturel_6798948_3232.html",
-   "resume": "Dès le XIXᵉ siècle, la sauvegarde du massif forestier préoccupait les intellectuels, dont l’autrice George Sand. Aujourd’hui, ils s’engagent de nouveau afin d’imaginer un avenir à ce haut lieu de la lutte écologiste, dont près de 10 % ont été incendiés en juillet."
   }
  ]
 }
