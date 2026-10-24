@@ -16,6 +16,7 @@ l'environnement cloud de Claude bloque les sites des sources.
     python3 collecte.py
 """
 import sys
+import urllib.parse
 from datetime import timedelta
 from pathlib import Path
 
@@ -26,6 +27,32 @@ VUS = HERE / "etat" / "vus.json"
 CANDIDATS = HERE / "travail" / "candidats.json"
 GARDER_JOURS = 5           # un épisode couvre au plus les 4 ou 5 derniers jours
 MAX_PAR_RUBRIQUE = 60      # plafond pour garder le fichier lisible par l'agent
+
+
+def collecter_wordpress(src, depuis):
+    """API REST de WordPress (/wp-json/wp/v2/posts), pour les sites dont le
+    flux RSS est bloqué (Radio 1). Options : « categories », « exclure »."""
+    params = {"per_page": src.get("max", 30), "after": depuis.strftime("%Y-%m-%dT%H:%M:%S"),
+              "_fields": "date_gmt,link,title,excerpt,content"}
+    if src.get("categories"):
+        params["categories"] = ",".join(map(str, src["categories"]))
+    if src.get("exclure"):
+        params["categories_exclude"] = ",".join(map(str, src["exclure"]))
+    url = src["url"].rstrip("/") + "/wp-json/wp/v2/posts?" + urllib.parse.urlencode(params)
+    items = []
+    for p in V.http_json(url):
+        titre = V.nettoyer(p["title"]["rendered"], 300)
+        lien = p.get("link", "")
+        if not titre or not lien.startswith("https://"):
+            continue
+        resume = V.nettoyer(p["excerpt"]["rendered"]) or V.nettoyer(p["content"]["rendered"])
+        items.append({"url": lien, "titre": titre, "resume": resume,
+                      "date": (p.get("date_gmt") or "")[:10], "auteurs": "",
+                      "source_id": src["id"], "source_nom": src["nom"], "pdf": ""})
+    return items
+
+
+V.COLLECTEURS["wordpress"] = collecter_wordpress
 
 
 def main():
