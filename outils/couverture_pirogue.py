@@ -8,7 +8,10 @@ de motifs inspirés du tatouage (motifs génériques, aucun tatouage réel copi�
 
 Dessin en SVG, rendu par Chrome sans interface, puis JPEG avec Pillow.
 
-    python3.13 outils/couverture_pirogue.py "Nom du podcast" [dossier]
+    python3.13 outils/couverture_pirogue.py "Nom du podcast" [dossier] [--fond image.jpg]
+
+Avec --fond, l'illustration est remplacée par l'image fournie (photo libre de
+droits ou image générée), encadrée des mêmes bandes et frises.
 """
 import json, math, random, subprocess, sys, tempfile
 from pathlib import Path
@@ -164,7 +167,7 @@ def rouleau(cx, cy, r, sens=1, coul="#0e3a52"):
             + "".join(griffes))
 
 
-def svg(nom, niveau):
+def svg(nom, niveau, fond=None):
     rnd = random.Random(7)
     pluie = "".join(
         f'<line x1="{x}" y1="{y}" x2="{x-22}" y2="{y+70}" />'
@@ -175,21 +178,7 @@ def svg(nom, niveau):
     etoile_rayons = "".join(
         f'<polygon points="1130,{390-(150 if i%2==0 else 80)} 1122,390 1138,390" transform="rotate({i*22.5} 1130 390)"/>'
         for i in range(16))
-    taille = 128 if len(nom) <= 13 else 112 if len(nom) <= 16 else 96
-    return f'''<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{W}" viewBox="0 0 {W} {W}">
-<defs>
-  <linearGradient id="ciel" x1="0" y1="0" x2="0" y2="1">
-    <stop offset="0" stop-color="#121625"/><stop offset=".55" stop-color="#2c2a44"/><stop offset="1" stop-color="#4a3a52"/>
-  </linearGradient>
-  <radialGradient id="lueur" cx="1130" cy="390" r="620" gradientUnits="userSpaceOnUse">
-    <stop offset="0" stop-color="#fff4d6" stop-opacity=".95"/><stop offset=".18" stop-color="#ffc98a" stop-opacity=".55"/>
-    <stop offset=".55" stop-color="#e0606a" stop-opacity=".22"/><stop offset="1" stop-color="#e0606a" stop-opacity="0"/>
-  </radialGradient>
-  <linearGradient id="mer" x1="0" y1="0" x2="0" y2="1">
-    <stop offset="0" stop-color="#155a6e"/><stop offset="1" stop-color="#06202e"/>
-  </linearGradient>
-</defs>
-<rect width="{W}" height="{W}" fill="url(#ciel)"/>
+    scene = f'''<rect width="{W}" height="{W}" fill="url(#ciel)"/>
 <rect width="{W}" height="{W}" fill="url(#lueur)"/>
 <g fill="#0c0f1c" opacity=".55">
   <ellipse cx="180" cy="420" rx="330" ry="90"/><ellipse cx="460" cy="360" rx="260" ry="70"/>
@@ -208,7 +197,22 @@ def svg(nom, niveau):
 {vague(1065, 75, 380, .35, "#0f3d50", True, 10)}
 {rouleau(150, 1090, 120, 1, "#0d3a4d")}
 {vague(1150, 60, 300, .8, "url(#mer)", True, 9)}
-{rouleau(1180, 1150, 95, -1, "#0b3244")}
+{rouleau(1180, 1150, 95, -1, "#0b3244")}'''
+    taille = 128 if len(nom) <= 13 else 112 if len(nom) <= 16 else 96
+    return f'''<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{W}" viewBox="0 0 {W} {W}">
+<defs>
+  <linearGradient id="ciel" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#121625"/><stop offset=".55" stop-color="#2c2a44"/><stop offset="1" stop-color="#4a3a52"/>
+  </linearGradient>
+  <radialGradient id="lueur" cx="1130" cy="390" r="620" gradientUnits="userSpaceOnUse">
+    <stop offset="0" stop-color="#fff4d6" stop-opacity=".95"/><stop offset=".18" stop-color="#ffc98a" stop-opacity=".55"/>
+    <stop offset=".55" stop-color="#e0606a" stop-opacity=".22"/><stop offset="1" stop-color="#e0606a" stop-opacity="0"/>
+  </radialGradient>
+  <linearGradient id="mer" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#155a6e"/><stop offset="1" stop-color="#06202e"/>
+  </linearGradient>
+</defs>
+{scene if not fond else f'<image href="{fond}" x="0" y="160" width="{W}" height="1150" preserveAspectRatio="xMidYMid slice"/>'}
 <rect y="0" width="{W}" height="260" fill="{ROUGE}"/>
 {dents(250, 34, 40, ROUGE)}
 {dents(214, 26, 56, "#ffffff", False)}
@@ -223,10 +227,15 @@ def svg(nom, niveau):
 </svg>'''
 
 
-def rendre(nom, niveau, sortie):
+def rendre(nom, niveau, sortie, fond=None):
     with tempfile.TemporaryDirectory() as tmp:
         f = Path(tmp) / "c.svg"
-        f.write_text(svg(nom, niveau), encoding="utf-8")
+        if fond:
+            # photo ou image fournie : recadrée, mise sous les bandes du drapeau
+            src = Path(tmp) / "fond.jpg"
+            Image.open(fond).convert("RGB").save(src, "JPEG", quality=92)
+            fond = src.name
+        f.write_text(svg(nom, niveau, fond), encoding="utf-8")
         png = Path(tmp) / "c.png"
         subprocess.run([CHROME, "--headless=new", "--disable-gpu", "--hide-scrollbars",
                         f"--window-size={W},{W}", f"--screenshot={png}", f.as_uri()],
@@ -235,12 +244,17 @@ def rendre(nom, niveau, sortie):
 
 
 def main():
+    fond = None
+    if "--fond" in sys.argv:
+        i = sys.argv.index("--fond")
+        fond = sys.argv[i + 1]
+        del sys.argv[i:i + 2]
     nom = (sys.argv[1] if len(sys.argv) > 1 else "Parau Mau").replace("'", "’").replace("ʻ", "’")
     dest = Path(sys.argv[2]) if len(sys.argv) > 2 else None
     for cle, niveau in (("college", "COLLÈGE"), ("lycee", "LYCÉE")):
         sortie = (dest / f"{cle}.jpg") if dest else HERE / "docs" / cle / "couverture.jpg"
         sortie.parent.mkdir(parents=True, exist_ok=True)
-        rendre(nom, niveau, sortie)
+        rendre(nom, niveau, sortie, fond)
         print("✓", sortie)
 
 
