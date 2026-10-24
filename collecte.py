@@ -52,7 +52,15 @@ def collecter_wordpress(src, depuis):
     return items
 
 
+def collecter_rss_filtre(src, depuis):
+    """Flux RSS général dont on ne garde que les liens contenant
+    « url_contient » (ex. la rubrique Pacifique d'Outremers360)."""
+    motif = src.get("url_contient", "")
+    return [i for i in V.collecter_rss(src, depuis) if motif in i["url"]]
+
+
 V.COLLECTEURS["wordpress"] = collecter_wordpress
+V.COLLECTEURS["rss_filtre"] = collecter_rss_filtre
 
 
 def main():

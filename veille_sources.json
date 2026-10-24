@@ -120,6 +120,16 @@
       "max": 30
     },
     {
+      "id": "outremers360-pacifique",
+      "nom": "Outremers360",
+      "rubrique": "oceanie",
+      "type": "rss_filtre",
+      "actif": true,
+      "url": "https://api.outremers360.com/rss/fil-info.xml",
+      "url_contient": "/bassin-pacifique",
+      "max": 50
+    },
+    {
       "id": "franceinfo-monde",
       "nom": "franceinfo",
       "rubrique": "monde",
