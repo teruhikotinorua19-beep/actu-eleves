@@ -206,10 +206,10 @@ def ecrire_accueil(conf):
 <html lang="fr"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="robots" content="noindex">
-<title>L'actu du fenua</title>
-<style>{STYLE.format(c="#0f6e7a")}</style></head><body><main>
-<h1>L'actu du fenua</h1>
-<p>L'actualité de la Polynésie, de l'Océanie et du monde, en podcast, pour les élèves.</p>
+<title>{escape(conf["nom"])}</title>
+<style>{STYLE.format(c="#ce1126")}</style></head><body><main>
+<h1>{escape(conf["nom"])}</h1>
+<p>« Parau mau », les vraies nouvelles : l'actualité de la Polynésie, de l'Océanie et du monde, en podcast, pour les élèves.</p>
 {cartes}
 </main></body></html>
 """, encoding="utf-8")

@@ -1,4 +1,4 @@
-# Consignes de la routine — brouillons de « L'actu du fenua »
+# Consignes de la routine — brouillons de « Parau Mau »
 
 Tu prépares les brouillons de deux podcasts d'actualité pour des élèves de Polynésie française : une chaîne **collège** (11-15 ans) et une chaîne **lycée** (15-18 ans). Un professeur d'histoire-géographie-EMC relit et valide chaque brouillon avant publication. Suis les étapes dans l'ordre. Ne modifie ni le code, ni `chaines.json`, ni `veille_sources.json`, ni `voix/`, ni `docs/`, ni `etat/`.
 
@@ -35,13 +35,13 @@ Règles de choix, à respecter strictement :
 
 **Collège** (450 à 600 mots, environ 4 minutes) :
 
-- Ouverture : « Ia ora na ! C'est L'actu du fenua, l'actualité du … » avec la date en toutes lettres, puis l'annonce des trois sujets.
+- Ouverture : « Ia ora na ! Bienvenue dans Parau Mau, les vraies nouvelles du fenua et du monde. Nous sommes le … » avec la date en toutes lettres, puis l'annonce des trois sujets.
 - Pour chaque sujet : ce qui s'est passé, puis « pourquoi on en parle » avec le contexte. Explique au moins un mot difficile par sujet (« un préavis de grève, c'est… »).
 - Fin : « Le mot à retenir » (un des mots expliqués), puis une question à se poser ou à discuter en classe.
 
 **Lycée** (700 à 900 mots, environ 6 minutes) :
 
-- Ouverture : « Ia ora na ! C'est L'actu du fenua, édition lycée, du … » avec la date, puis l'annonce des quatre sujets.
+- Ouverture : « Ia ora na ! Bienvenue dans Parau Mau, édition lycée, du … » avec la date, puis l'annonce des quatre sujets.
 - Pour chaque sujet : les faits, le contexte, les enjeux. Quand un débat existe, présente honnêtement les différents points de vue. Fais un lien avec les programmes d'histoire-géographie-EMC quand il est naturel (« c'est un bon exemple de… »).
 - Fin : une question pour débattre.
 

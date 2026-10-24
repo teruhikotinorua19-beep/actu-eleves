@@ -1,5 +1,7 @@
 {
   "base_url": "https://teruhikotinorua19-beep.github.io/actu-eleves",
+  "nom": "Parau Mau",
+  "sous_titre": "l'actu du fenua et du monde",
   "auteur": "Professeur d'histoire-géographie-EMC",
   "voix": "edge:fr-FR-VivienneMultilingualNeural",
   "voix_secours": "fr_FR-siwis-medium",
@@ -7,14 +9,14 @@
   "mention_finale": "Cet épisode a été préparé avec l'aide d'une intelligence artificielle, à partir d'articles de presse, puis relu par votre professeur. Pour en savoir plus, les liens vers les articles sont dans la description de l'épisode.",
   "chaines": {
     "college": {
-      "titre": "L'actu du fenua — collège",
-      "description": "Deux fois par semaine, l'actualité de la Polynésie, de l'Océanie et du monde expliquée aux collégiens. Résumés préparés avec l'aide d'une IA et relus par un professeur d'histoire-géographie. Voix de synthèse.",
-      "couleur": "#0f6e7a"
+      "titre": "Parau Mau — collège",
+      "description": "« Parau mau », les vraies nouvelles. Deux fois par semaine, l'actualité de la Polynésie, de l'Océanie et du monde expliquée aux collégiens. Résumés préparés avec l'aide d'une IA et relus par un professeur d'histoire-géographie. Voix de synthèse.",
+      "couleur": "#ce1126"
     },
     "lycee": {
-      "titre": "L'actu du fenua — lycée",
-      "description": "Deux fois par semaine, l'actualité de la Polynésie, de l'Océanie et du monde pour les lycéens : les faits, le contexte, les enjeux. Résumés préparés avec l'aide d'une IA et relus par un professeur d'histoire-géographie. Voix de synthèse.",
-      "couleur": "#1b3a5c"
+      "titre": "Parau Mau — lycée",
+      "description": "« Parau mau », les vraies nouvelles. Deux fois par semaine, l'actualité de la Polynésie, de l'Océanie et du monde pour les lycéens : les faits, le contexte, les enjeux. Résumés préparés avec l'aide d'une IA et relus par un professeur d'histoire-géographie. Voix de synthèse.",
+      "couleur": "#9e0d1e"
     }
   }
 }

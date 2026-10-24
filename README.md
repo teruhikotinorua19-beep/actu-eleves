@@ -1,4 +1,4 @@
-# L'actu du fenua — podcasts d'actualité pour les élèves
+# Parau Mau (« les vraies nouvelles ») — podcasts d'actualité pour les élèves
 
 Deux chaînes (collège, lycée), deux épisodes par semaine : Polynésie, Océanie, monde.
 

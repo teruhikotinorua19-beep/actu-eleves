@@ -38,5 +38,5 @@ jobs:
               print("\n" + s.read_text().strip() + "\n")
           PY
           gh pr create --base main --head "$GITHUB_REF_NAME" \
-            --title "À relire : L'actu du fenua du $(TZ=Pacific/Tahiti date +%d/%m)" \
+            --title "À relire : Parau Mau du $(TZ=Pacific/Tahiti date +%d/%m)" \
             --body-file corps.md || gh pr edit "$GITHUB_REF_NAME" --body-file corps.md

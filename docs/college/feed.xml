@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>L&#x27;actu du fenua — collège</title>
+    <title>Parau Mau — collège</title>
     <link>https://teruhikotinorua19-beep.github.io/actu-eleves/college/</link>
     <atom:link href="https://teruhikotinorua19-beep.github.io/actu-eleves/college/feed.xml" rel="self" type="application/rss+xml"/>
     <language>fr</language>
-    <description>Deux fois par semaine, l&#x27;actualité de la Polynésie, de l&#x27;Océanie et du monde expliquée aux collégiens. Résumés préparés avec l&#x27;aide d&#x27;une IA et relus par un professeur d&#x27;histoire-géographie. Voix de synthèse.</description>
+    <description>« Parau mau », les vraies nouvelles. Deux fois par semaine, l&#x27;actualité de la Polynésie, de l&#x27;Océanie et du monde expliquée aux collégiens. Résumés préparés avec l&#x27;aide d&#x27;une IA et relus par un professeur d&#x27;histoire-géographie. Voix de synthèse.</description>
     <itunes:author>Professeur d&#x27;histoire-géographie-EMC</itunes:author>
     <itunes:image href="https://teruhikotinorua19-beep.github.io/actu-eleves/college/couverture.jpg"/>
     <itunes:category text="Education"/>
